@@ -1,0 +1,118 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	margin: 0;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face { font-family: Hoefler-Reg; src: url(../fonts/Hoefler Text.ttc); } 
+
+h1 {
+	font-family: Hoefler-Reg;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: Hoefler-Reg;
+	font-weight: normal;
+}
+
+p {
+	font-family: Hoefler-Reg;
+	font-weight: normal;
+}
+
+/* Elements
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+	height: 100vh;
+
+}
+
+.content {
+	padding-top: 40vh;
+	width: 80%;
+	margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rotate {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.text {
+	width: 40%;
+}
+
+.text h2 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.text p {
+	margin: 0;
+}
+
+.iop {
+	text-align: right;
+}
+
+.line {
+    height: 1px;
+    background-color: white;
+    margin: 20px 35%;
+}
+
+#footer {
+	width: 22em;
+	/*margin-left: auto;*/
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#footer h6 {
+	font-size: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.line2 {
+	height: 1px;
+	margin: 5px 0px;
+	background-color: white;
+}
+
+#footer p {
+	font-size: 8px;
+	margin: 0;
+	margin-left: 2px;
+}
+
+#logo {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box2 {
+	margin-left: auto;
+}
+
+.tmp-box {
+	margin: 0px 2px;
+	height: 18px;
+	width: 18px;
+	background-color: white;
+}
